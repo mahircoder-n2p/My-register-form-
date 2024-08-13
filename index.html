@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration Form</title>
+    <style>
+       body{
+        background-color: lightgray;
+        text-align: center;
+       }
+        .proboiz button {
+            width: 100%;
+            padding: 10px;
+            background-color: lightblue;
+            color: #fff;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+            font-size: 16px;
+            width: 100px;
+            align-items: center;
+            margin-right: 100px;
+            
+        }
+
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1><a href="#" style="text-decoration: dashed; color: black;">Registration Form</a></h1>
+        <form action="/submit" method="POST">
+
+            <div class="form-group">
+                <label for="" style="margin: 20px;">First Name</label> <input type="text">
+                <br>
+                <br>
+                <label for="" style="margin: 21px;">Last Name</label> <input type="text">
+                <br>
+                <br>
+                <label for="" style="margin: 20px;">Nick Name</label> <input type="text">
+                <br>
+                <br>
+                <label for="" style="margin: 36px;">e-mail</label> <input type="text">
+                <br>
+                <br>
+                <label for="" style="margin: 26px;">Password</label> <input type="text">
+                <br>
+                <br>
+                <label for="" style="margin: 14px;">Date of Birth</label> <input type="text">
+<br>
+                <div class="maggi" style="margin-left: 130px;">
+                    <div class="gender-options">
+                        <label>
+                            <div class="proboiz">
+
+                                <div class="gender-options">
+                                       <br><br>
+                             <input type="radio"  name="gender" value="male" required > Male
+                        </label>
+                        <label>
+                            <input type="radio" name="gender" value="female" required> Female
+                        </label>
+                        <label>
+                            <input type="radio" name="gender" value="other" required> Other
+                        </label>
+                    </div>
+                    <br><br>
+                </div>
+                </div>
+                <label for="" style="margin: 30px;">Number</label> <input type="text"  style="margin-right: 130px;">
+<br>
+            <div class="proboiz" >
+                <br>
+                <label for="address" style="margin: 8px;">Address        </label>
+                <textarea id="address" name="address" rows="4" style="margin-right: 78px;"></textarea>
+                
+     
+
+            
+            
+        </form>
+    </div>
+  <br>
+<button>Register</button>
+<button>Reset</button>
+</body>
+</html>
